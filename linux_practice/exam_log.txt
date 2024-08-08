@@ -30,3 +30,8 @@
    30  gh auth login
    31  81
    32  history > exam_log.txt
+   33  git add exam_log.txt
+   34  git commit -m "Submission of Final Exam"
+   35  git config --global user.email "pacotmorales12@gmail.com"
+   36  git config --global user.name "James Pacot"
+   37  history > exam_log.txt
