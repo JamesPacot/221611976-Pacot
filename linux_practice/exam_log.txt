@@ -1,37 +1,426 @@
-    1  mkdir linux_practice
-    2  cd linux_practice
-    3  touch notes.txt
-    4  ls >> notes.txt
-    5  cat notes.txt
-    6  echo "Hello, Linux!" > notes.txt
-    7  echo "This is a practical exam." >> notes.txt
-    8  head -n 1 notes.txt
-    9  tail -n 1 notes.txt
-   10  mkdir subdir
-   11  mv notes.txt subdir/
-   12  mv subdir practice_subdir
-   13  cp practice_subdir/notes.txt .
-   14  date
-   15  uptime
-   16  du -sh ~
-   17  ssh -v
-   18  php -v
-   19  mysql -v
-   20  apache2 -v
-   21  apache -v
-   22  apachectl -v
-   23  python --version
-   24  java --version
-   25  git branch
-   26  git checkout -b finalexam
-   27  history > exam_log.txt
-   28  git add exam_log.txt
-   29  git commit -m "Submission of Final Exam"
-   30  gh auth login
-   31  81
-   32  history > exam_log.txt
-   33  git add exam_log.txt
-   34  git commit -m "Submission of Final Exam"
-   35  git config --global user.email "pacotmorales12@gmail.com"
-   36  git config --global user.name "James Pacot"
-   37  history > exam_log.txt
+    1  clear
+    2  python
+    3  clear
+    4  termux change repo 
+    5  clear 
+    6  proot -distro 
+    7  pkg install proot 
+    8  proot -distro 
+    9  pkg install proot-distro
+   10  proot-distro install 
+   11  proot-distro install Ubuntu
+   12  proot-distro 
+   13  proot install Ubuntu
+   14  exit 
+   15  clear 
+   16  exit
+   17  proot-distro login 
+   18  exit 
+   19  clear
+   20  proot-distro login 
+   21  clear 
+   22  proot-distro login 
+   23  proot-distro login ubuntu 
+   24  exit 
+   25  search 
+   26  wwawalwal 
+   27  wwswslwsl 
+   28  wsl
+   29  find
+   30  ls -l
+   31  exit
+   32  php -
+   33  php -v
+   34  pkg install java
+   35  clear
+   36  pkg install java
+   37  pkg install php
+   38  php -v
+   39  pkg install python3
+   40  pkg install default-jdk
+   41  apt install default-jdk
+   42  sudo apt update
+   43  pkg update && upgrade
+   44  apt update && apt upgrade -y
+   45  apt install default-jdk
+   46  apt install openjdk-11
+   47  apt install openjdk-17
+   48  jdk -v
+   49  exit
+   50  php -v
+   51  home
+   52  apt update && apt upgrade -y 
+   53  git clone https://github.com/JamesPacot/221611976-Pacot
+   54  pkg install git
+   55  cd~
+   56  cd ~
+   57  git clone https://github.com/JamesPacot/221611976-Pacot
+   58  ls 
+   59  cd repository
+   60  cd 221611976-Pacot
+   61  -v
+   62  dir
+   63  touch file1.txt
+   64  git add .
+   65  commit -m "wala lang"
+   66  git commit -m "lalang"
+   67  git push
+   68  gh authorized
+   69  apt install gh
+   70  gh auth login 
+   71  apt update && aptupgrade -
+   72  apt install ecj
+   73  nano Greetings.java
+   74  javac greetings.java
+   75  java greetings.java
+   76  javac Greetings.java
+   77  java Greetings.java
+   78  nano Greetings.java
+   79  java Greetings.java
+   80  cat Greetings.java
+   81  nano helloworld.java
+   82  java helloworld.java
+   83  cat helloworld.java
+   84  java helloworld.java
+   85  javac helloworld.java
+   86  apt install javac
+   87  apt update && aptupgrade -y
+   88  cd 
+   89  ls
+   90  cd 
+   91  cd 221611976-Pacot
+   92  apache -v
+   93  apache2 -v
+   94  apt update && upgrade -y
+   95  apt install apache2
+   96  apt install proot
+   97  apt update && aptupgrade -
+   98  apt update && aptupgrade -y
+   99  apt update && ap  upgrade -y
+  100  apt update && apt upgrade -y
+  101  pkg upgrade 
+  102  pkg install openssh
+  103  cd 
+  104  apt upgrade
+  105  apache2 -
+  106  apache2 -v
+  107  apt install apache2
+  108  pkg install apache2
+  109  cd 221611976-Pacot
+  110  apache2 -v
+  111  termux-change-repo
+  112  java hellworld.java
+  113  java helloworld.java
+  114  exit
+  115  exit 
+  116  apache2 -v
+  117  python3 -v
+  118  cd 22-1611-976-Pacot
+  119  termux-setup-storage
+  120  php -v
+  121  pkg install apache2
+  122  pkg update && pkg upgrade
+  123  pkg install apache2
+  124  termux-change-repo
+  125  gh -
+  126  gh -v
+  127  gh --version
+  128  pkg install php-mysql
+  129  pkg update && pkg upgrade
+  130  java helloworld.java
+  131  java --version
+  132  pkg install sqlite
+  133  pkg update && pkg upgrade
+  134  ls -l /path/to/directory_or_file
+  135  ls -l 221611976-pacor
+  136  ls -l 221611976-pacot
+  137  cd 221611976-pacot
+  138  pkg install proot
+  139  proot-distro login ubuntu
+  140  pkg install openssh
+  141  printmotd yes
+  142  openssh --v
+  143  nano /data/data/com.termux/files/usr/etc/ssh/sshd_config
+  144  passwd
+  145  clear 
+  146  exir
+  147  exit
+  148  apache2 --v
+  149  python3 -v
+  150  exit
+  151  java helloworld.java
+  152  java 
+  153  gh clone 221611976-Pacot
+  154  git clone 221611976-Pacot
+  155  cd 221611976-Pacot
+  156  ls
+  157  cd 
+  158  exit
+  159  whoami
+  160  pwd
+  161  pkg list-installed
+  162  exit
+  163  openssh --v
+  164  openssh -v
+  165  pkg update && pkg upgrade
+  166  ssh-keygen
+  167  pkg install openssh
+  168  passwd
+  169  ssh-keygen
+  170  sshd
+  171  whoami
+  172  ifconfig
+  173  whoami
+  174  ssh 221611976 -p 8022
+  175  sshd
+  176  ssh u0_a322@192.168.254.125 -p 8022
+  177  exit
+  178  sshd
+  179  exit
+  180  mysql -v
+  181  pkg install mariadb
+  182  exit
+  183  nano $PREFIX/etc/apt/sources.list
+  184  pkg update
+  185  pkg install mariadb
+  186  mariadb -v
+  187  apt install mysql -server -y
+  188  proot-distro login
+  189  exit
+  190  service apache2 status
+  191  service mysql status
+  192  pkg update
+  193  login ubuntu
+  194  proot-distro login ubuntu
+  195  apt install apache2 -y
+  196  apt install mysql-server -y
+  197  pkg install mysql-server -y
+  198  proot-distro login ubuntu
+  199  exit
+  200  proot-distro login ubuntu
+  201  exit
+  202  mkdir linux_practice
+  203  cd linux_practice
+  204  touch notes.txt
+  205  ls >> notes.txt
+  206  cat notes.txt
+  207  echo "Hello, Linux!" > notes.txt
+  208  echo "This is a practical exam." >> notes.txt
+  209  head -n 1 notes.txt
+  210  tail -n 1 notes.txt
+  211  mkdir subdir
+  212  mv notes.txt subdir/
+  213  mv subdir practice_subdir
+  214  cp practice_subdir/notes.txt .
+  215  date
+  216  uptime
+  217  du -sh ~
+  218  ssh -v
+  219  php -v
+  220  mysql -v
+  221  apache2 -v
+  222  apache -v
+  223  apachectl -v
+  224  python --version
+  225  java --version
+  226  git branch
+  227  git checkout -b finalexam
+  228  history > exam_log.txt
+  229  git add exam_log.txt
+  230  git commit -m "Submission of Final Exam"
+  231  gh auth login
+  232  81
+  233  history > exam_log.txt
+  234  git add exam_log.txt
+  235  git commit -m "Submission of Final Exam"
+  236  git config --global user.email "pacotmorales12@gmail.com"
+  237  git config --global user.name "James Pacot"
+  238  history > exam_log.txt
+  239  git commit -m "Submission of Final Exam"
+  240  git push origin finalexam
+  241  exit
+  242  mkdir linux_practice
+  243  cd linux_practice
+  244  touch notes.txt
+  245  ls >> notes.txt
+  246  echo "Hello, Linux!" > notes.txt
+  247  echo "This is a practical exam" >> notes.txt
+  248  head -l n notes.txt
+  249  head 1 -n notes.txt
+  250  head -n 1 notes.txt
+  251  tail -n 1 notes.txt
+  252  mkdir subdir
+  253  mv notes.txt > subdir/
+  254  mv subdir practice_subdir
+  255  cp practice_subdir/notes.txt
+  256  mv notes.txt subdir/
+  257  mkdir subdir
+  258  mv notes.txt subdir/
+  259  mv subdir practice_subdir
+  260  cp practice_subdir/notes.txt .
+  261  ls practice_subdir
+  262  ls notes.txt
+  263  ls
+  264  mv notes.txt subdir/
+  265  cat notes.txt
+  266  cat -n 1notes.txt
+  267  cat -n 1 notes.txt
+  268  head -n 1 notes.txt
+  269  cls
+  270  exit
+  271  cd 225162145
+  272  cd linux_practice
+  273  touch notes.tx
+  274  touch notes.txt
+  275  echo "Hello, Linux!" > notes.txt
+  276  echo "This is a practical exam" >> notes.txt
+  277  head -n 1 notes.txt
+  278  tail -n 1 notes.txt
+  279  mkdir subdir
+  280  mv notes.txt subdir/
+  281  mv subdir practice_subdir
+  282  rm -r practice_subdir/subdir
+  283  ls -R
+  284  mv subdir/notes.txt .
+  285  rmdir subdir
+  286  ls -R
+  287  cp notes.txt practice_subdir_renamed/
+  288  cp notes.txt practice_subdir/
+  289  ls practice_subdir
+  290  date
+  291  uptime
+  292  du -sh ~
+  293  ssh -v
+  294  php -v
+  295  mysql -v
+  296  apachect1 -v
+  297  python --version
+  298  java --version
+  299  git checkout -b finalexam
+  300  git add exam_log.txt
+  301  history > exam_log.txt
+  302  git add exam_log.txt
+  303  git commit -m "Practical Exam"
+  304  git push origin finalexam
+  305  gh auth login 
+  306  git add exam_log.txt
+  307  git commit -m "Practical Exam"
+  308  git add .
+  309  git commit -m "Practical Exam"
+  310  git push origin finalexam
+  311  ls
+  312  exit
+  313  cd 225162145
+  314  cd linux_practice
+  315  ls
+  316  git config --global user.name "jedijune.quijada01@gmail.com"
+  317  git config --global user.email "jedijune.quijada01@gmail.com"
+  318  git config --global user.name "JediQuijada04"
+  319  git remote -v
+  320  git remote set-url origin https://github.com/JediQuijada04/225162145.git
+  321  git push origin finalexam
+  322  git fetch origin
+  323  git pull origin finalexam
+  324  git push origin finalexam
+  325  cd ..
+  326  ls
+  327  mkdir -p ~/225162145/linux_practice
+  328  cd ~/225162145/linux_practice
+  329  ls
+  330  git status
+  331  git clone https://github.com/JediQuijada04/225162145.git ~/225162145/linux_practice
+  332  cd ~/225162145/linux_practice
+  333  git push origin finalexam
+  334  git branch
+  335  git checkout -b finalexam
+  336  git push origin finalexam
+  337  head -n 1 notes.txt
+  338  ls
+  339  touch notes.txt
+  340  ls
+  341  echo "Hello, Linux!" > notes.txt
+  342  echo "This is practical exam" >> notes.txt
+  343  head -n 1 notes.txt
+  344  tail -n 1 notes.txt
+  345  mkdir subdir
+  346  mv notes.txt subdir/
+  347  mv subdir practice_subdir
+  348  cp practice_subdir/notes.txt
+  349  cp practice_subdir/notes.txt .
+  350  date
+  351  uptime
+  352  du -sh ~
+  353  ssh -v
+  354  php -v
+  355  apachect1 -v
+  356  apache2 -v
+  357  python --v
+  358  python --version
+  359  java --versiom
+  360  java --version
+  361  git checkout -b finalexam
+  362  history > exam_log.txt
+  363  git add exam_log.txt
+  364  git commit -m "Practical Exam"
+  365  git push origin finalexam
+  366  git fetch origin
+  367  git pull origin finalexam
+  368  git branch
+  369  git pull origin finalexam --no-rebase
+  370  git add exam_log.txt
+  371  git commit -m "Practical Exam"
+  372  git push origin finalexam
+  373  whoami
+  374  cd 
+  375  cd 221611976-Pacor
+  376  cd 221611976-Pacot
+  377  ls
+  378  cd linux_practice
+  379  ls
+  380  head -n 1 notes.txt
+  381  cls
+  382  cd
+  383  ls
+  384  cd 221611976-Pacot
+  385  cd linux_practice
+  386  ls
+  387  cat -n 1 notes.txt
+  388  cat notes.txt
+  389  exit
+  390  git config --global user.email "pacotmorales12@gmail.com"
+  391  git config --global user.name "James Pacot"
+  392  gh auth login
+  393  cd 221611976-Pacot
+  394  cd linux_practice
+  395  ls -l
+  396  dir practice_subdir
+  397  git add notes.txt
+  398  git commit -m "Submission practical exam"
+  399  git push origin finalexam
+  400  gir add practice_subdir
+  401  git add practice_subdir
+  402  git commit -m "Submission Practical Exam"
+  403  git push origin finalexam
+  404  ls
+  405  git add exam_log.txt
+  406  git commit -m "Added exam_log.txt with command history"
+  407  git push origin finalexam
+  408  cd ..
+  409  md linux_practice
+  410  mkdir linux_practice
+  411  cd linux_practice
+  412  git fetch origin
+  413  git pull origin finalexam --no-rebase
+  414  git branch
+  415  git add exam_log.txt
+  416  git commit -m "Added exam_logs.txt with command history"
+  417  git push origin finalexan
+  418  git push origin finalexam
+  419  exit
+  420  cd 221611976-Pacot
+  421  cd Linux_Practice
+  422  cd practice_linux
+  423  cd linux_practice
+  424  ls
+  425  git checkout -b finalexam
+  426  history > exam_log.txt
