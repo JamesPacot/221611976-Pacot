@@ -435,3 +435,9 @@
   435  git checkout -b finalexam
   436  git checkout -b finalexam2
   437  history > exam_log.txt
+  438  git add . exam_log.txt
+  439  git commit -m "Added exam_log.txt with command and history"
+  440  git push origin finalexam
+  441  ls
+  442  git checkout -b finalexam
+  443  history > exam_log.txt
