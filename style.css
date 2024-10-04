@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50;
+    color: black;
+    padding:0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5em;
+
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0%;
+    margin-top: 15px;
+
+}
+
+nav ul li {
+    margin: 0%;
+}
+
+nav  ul li a {
+    color: rgb(88, 79, 79);
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+nav ul li a:hover {
+    color: lightgreen;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section styling */
+h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+ul {
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 10px;
+}
+
+/*About me*/
+#about img {
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 10px black;
+}
+
+#projects a {
+    color: gray;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    color: green;
+}
+
+/*contact*/
+#contact a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: green;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+   
+    width: 100%;
+    bottom: 0;
+}
