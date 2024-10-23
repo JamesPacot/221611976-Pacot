@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Title-->
+    <h1 id="title">Survey Form</h1>
+
+    <!--Description-->
+    <p id="description">A little survey for development</p>
+
+    <!--Survey structure-->
+    <fieldset>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name:
+                <input id="name" type="text" placeholder="Enter your name" required>
+            </label>
+            <label id="email-label" for="email">Email:
+                <input id="email" type="email" placeholder="Enter your email" required>
+            </label>
+            <label id="number-label" for="number">Number:
+                <input id="number" type="number" placeholder="How many times do you commute in a week?" min="1"
+                    max="100">
+            </label>
+    </fieldset>
+
+    <!--Dropdwon selector-->
+    <fieldset>
+        <label for="dropdown"></label>
+        <select name="" id="dropdown" class="inline">
+            <option value="">Select your status</option>
+            <option value="Regular">Regular</option>
+            <option value="Student/Senior/PWD">Student/Senior/PWD</option>
+        </select>
+    </fieldset>
+
+    <!--Radio Buttons-->
+    <fieldset>
+        <legend>Do you commute?</legend>
+        <label class="item">
+            <input id="yes" type="radio" value="yes" name="commute" required>
+            Yes
+        </label>
+        <label class="item">
+            <input id="no" type="radio" value="no" name="commute" required>
+            No
+        </label>
+    </fieldset>
+
+    <!--Checkbox-->
+    <fieldset>
+        <legend>Select the challenges you face during your commute (select all that apply):</legend>
+        <div>
+            <label class="item">
+                <input class="inline" id="traffic" type="checkbox" value="traffic" name="challenges">
+                Heavy traffic
+            </label>
+            <label class="item">
+                <input class="inline" id="comfort" type="checkbox" value="comfort" name="challenges">
+                Lack of comfort
+            </label>
+            <label class="item">
+                <input class="inline" id="cost" type="checkbox" value="cost" name="challenges">
+                High cost
+            </label>
+            <label class="item">
+                <input class="inline" id="availability" type="checkbox" value="availability" name="challenges">
+                Limited availability
+            </label>
+            <label class="item">
+                <input class="inline" id="not" type="checkbox" value="not" name="challenges">
+                I don't commute
+            </label>
+        </div>
+    </fieldset>
+
+    <!--textarea-->
+    <fieldset>
+        <label for="comments">Additional comments(optional):</label>
+        <textarea name="comments" id="comments" rows="4" cols="50" placeholder="Experiences about your commute... "></textarea>
+    </fieldset>
+
+    <!--submit-->
+    <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
